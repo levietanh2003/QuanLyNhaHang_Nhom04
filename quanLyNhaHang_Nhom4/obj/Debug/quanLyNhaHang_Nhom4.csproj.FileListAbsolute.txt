@@ -21,3 +21,15 @@ C:\Users\levietanh0108\source\repos\quanLyNhaHang_Nhom4\quanLyNhaHang_Nhom4\obj\
 \\Mac\Home\Desktop\quanLyNhaHang_Nhom4\quanLyNhaHang_Nhom4\obj\Debug\quanLyNhaHang_Nhom4.exe
 \\Mac\Home\Desktop\quanLyNhaHang_Nhom4\quanLyNhaHang_Nhom4\obj\Debug\quanLyNhaHang_Nhom4.pdb
 \\Mac\Home\Desktop\quanLyNhaHang_Nhom4\quanLyNhaHang_Nhom4\obj\Debug\quanLyNhaHang_Nhom4.Manager.frmLogin.resources
+C:\Users\Win 10\Source\Repos\QuanLyNhaHang_Nhom04\quanLyNhaHang_Nhom4\bin\Debug\quanLyNhaHang_Nhom4.exe.config
+C:\Users\Win 10\Source\Repos\QuanLyNhaHang_Nhom04\quanLyNhaHang_Nhom4\bin\Debug\quanLyNhaHang_Nhom4.exe
+C:\Users\Win 10\Source\Repos\QuanLyNhaHang_Nhom04\quanLyNhaHang_Nhom4\bin\Debug\quanLyNhaHang_Nhom4.pdb
+C:\Users\Win 10\Source\Repos\QuanLyNhaHang_Nhom04\quanLyNhaHang_Nhom4\obj\Debug\quanLyNhaHang_Nhom4.csproj.AssemblyReference.cache
+C:\Users\Win 10\Source\Repos\QuanLyNhaHang_Nhom04\quanLyNhaHang_Nhom4\obj\Debug\quanLyNhaHang_Nhom4.Manager.frmLogin.resources
+C:\Users\Win 10\Source\Repos\QuanLyNhaHang_Nhom04\quanLyNhaHang_Nhom4\obj\Debug\quanLyNhaHang_Nhom4.Manager.frmMain.resources
+C:\Users\Win 10\Source\Repos\QuanLyNhaHang_Nhom04\quanLyNhaHang_Nhom4\obj\Debug\quanLyNhaHang_Nhom4.Manager.frmManagerFood.resources
+C:\Users\Win 10\Source\Repos\QuanLyNhaHang_Nhom04\quanLyNhaHang_Nhom4\obj\Debug\quanLyNhaHang_Nhom4.Properties.Resources.resources
+C:\Users\Win 10\Source\Repos\QuanLyNhaHang_Nhom04\quanLyNhaHang_Nhom4\obj\Debug\quanLyNhaHang_Nhom4.csproj.GenerateResource.cache
+C:\Users\Win 10\Source\Repos\QuanLyNhaHang_Nhom04\quanLyNhaHang_Nhom4\obj\Debug\quanLyNhaHang_Nhom4.csproj.CoreCompileInputs.cache
+C:\Users\Win 10\Source\Repos\QuanLyNhaHang_Nhom04\quanLyNhaHang_Nhom4\obj\Debug\quanLyNhaHang_Nhom4.exe
+C:\Users\Win 10\Source\Repos\QuanLyNhaHang_Nhom04\quanLyNhaHang_Nhom4\obj\Debug\quanLyNhaHang_Nhom4.pdb
