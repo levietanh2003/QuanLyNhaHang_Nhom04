@@ -58,5 +58,7 @@ namespace quanLyNhaHang_Nhom4.Manager
         {
             showSubMeNu(pnlSubWareHouse);
         }
+
+        
     }
 }
