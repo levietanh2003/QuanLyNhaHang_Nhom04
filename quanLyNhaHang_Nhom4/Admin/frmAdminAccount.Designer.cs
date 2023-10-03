@@ -49,17 +49,17 @@
             this.colloaitk = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colmanv = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.lblTongdanhmuc = new System.Windows.Forms.Label();
             this.lblTongDM = new System.Windows.Forms.Label();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolstripTim = new System.Windows.Forms.ToolStripLabel();
             this.toolStripSobanan = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgrbanghienthi)).BeginInit();
@@ -108,7 +108,7 @@
             this.numericUpDown1.Location = new System.Drawing.Point(274, 480);
             this.numericUpDown1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(163, 29);
+            this.numericUpDown1.Size = new System.Drawing.Size(163, 21);
             this.numericUpDown1.TabIndex = 24;
             this.numericUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -117,7 +117,7 @@
             this.textBox2.Location = new System.Drawing.Point(275, 219);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(164, 29);
+            this.textBox2.Size = new System.Drawing.Size(164, 21);
             this.textBox2.TabIndex = 10;
             // 
             // textBox5
@@ -125,7 +125,7 @@
             this.textBox5.Location = new System.Drawing.Point(275, 571);
             this.textBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(164, 29);
+            this.textBox5.Size = new System.Drawing.Size(164, 21);
             this.textBox5.TabIndex = 13;
             // 
             // lblThongtintk
@@ -135,7 +135,7 @@
             this.lblThongtintk.Location = new System.Drawing.Point(25, 122);
             this.lblThongtintk.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblThongtintk.Name = "lblThongtintk";
-            this.lblThongtintk.Size = new System.Drawing.Size(391, 47);
+            this.lblThongtintk.Size = new System.Drawing.Size(244, 30);
             this.lblThongtintk.TabIndex = 2;
             this.lblThongtintk.Text = "Thông tin tài khoản ";
             // 
@@ -144,7 +144,7 @@
             this.textBox3.Location = new System.Drawing.Point(275, 425);
             this.textBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(164, 29);
+            this.textBox3.Size = new System.Drawing.Size(164, 21);
             this.textBox3.TabIndex = 11;
             // 
             // lblmatkhau
@@ -154,7 +154,7 @@
             this.lblmatkhau.Location = new System.Drawing.Point(25, 295);
             this.lblmatkhau.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblmatkhau.Name = "lblmatkhau";
-            this.lblmatkhau.Size = new System.Drawing.Size(136, 32);
+            this.lblmatkhau.Size = new System.Drawing.Size(86, 20);
             this.lblmatkhau.TabIndex = 4;
             this.lblmatkhau.Text = "mật khẩu ";
             // 
@@ -165,7 +165,7 @@
             this.lblmanv.Location = new System.Drawing.Point(25, 430);
             this.lblmanv.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblmanv.Name = "lblmanv";
-            this.lblmanv.Size = new System.Drawing.Size(183, 32);
+            this.lblmanv.Size = new System.Drawing.Size(116, 20);
             this.lblmanv.TabIndex = 8;
             this.lblmanv.Text = "Mã nhân viên ";
             // 
@@ -176,7 +176,7 @@
             this.lblnhaplaimk.Location = new System.Drawing.Point(27, 360);
             this.lblnhaplaimk.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblnhaplaimk.Name = "lblnhaplaimk";
-            this.lblnhaplaimk.Size = new System.Drawing.Size(242, 32);
+            this.lblnhaplaimk.Size = new System.Drawing.Size(154, 20);
             this.lblnhaplaimk.TabIndex = 5;
             this.lblnhaplaimk.Text = "Nhập lại mật khẩu ";
             // 
@@ -185,7 +185,7 @@
             this.textBox6.Location = new System.Drawing.Point(275, 355);
             this.textBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(164, 29);
+            this.textBox6.Size = new System.Drawing.Size(164, 21);
             this.textBox6.TabIndex = 14;
             // 
             // lblTentk
@@ -195,7 +195,7 @@
             this.lblTentk.Location = new System.Drawing.Point(25, 224);
             this.lblTentk.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTentk.Name = "lblTentk";
-            this.lblTentk.Size = new System.Drawing.Size(181, 32);
+            this.lblTentk.Size = new System.Drawing.Size(115, 20);
             this.lblTentk.TabIndex = 3;
             this.lblTentk.Text = "Tên tài khoản";
             // 
@@ -206,7 +206,7 @@
             this.lblloaitk.Location = new System.Drawing.Point(25, 495);
             this.lblloaitk.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblloaitk.Name = "lblloaitk";
-            this.lblloaitk.Size = new System.Drawing.Size(193, 32);
+            this.lblloaitk.Size = new System.Drawing.Size(123, 20);
             this.lblloaitk.TabIndex = 7;
             this.lblloaitk.Text = "Loại tài khoản ";
             // 
@@ -217,7 +217,7 @@
             this.lblTenhienthi.Location = new System.Drawing.Point(27, 576);
             this.lblTenhienthi.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTenhienthi.Name = "lblTenhienthi";
-            this.lblTenhienthi.Size = new System.Drawing.Size(166, 32);
+            this.lblTenhienthi.Size = new System.Drawing.Size(105, 20);
             this.lblTenhienthi.TabIndex = 6;
             this.lblTenhienthi.Text = "Tên hiển thị ";
             // 
@@ -226,7 +226,7 @@
             this.textBox4.Location = new System.Drawing.Point(275, 292);
             this.textBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(164, 29);
+            this.textBox4.Size = new System.Drawing.Size(164, 21);
             this.textBox4.TabIndex = 12;
             // 
             // dgrbanghienthi
@@ -287,6 +287,77 @@
             this.panel4.Size = new System.Drawing.Size(984, 145);
             this.panel4.TabIndex = 32;
             // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Silver;
+            this.panel5.Controls.Add(this.lblTongdanhmuc);
+            this.panel5.Controls.Add(this.lblTongDM);
+            this.panel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel5.Location = new System.Drawing.Point(0, 60);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(984, 53);
+            this.panel5.TabIndex = 33;
+            // 
+            // lblTongdanhmuc
+            // 
+            this.lblTongdanhmuc.AutoSize = true;
+            this.lblTongdanhmuc.Font = new System.Drawing.Font("Cambria", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTongdanhmuc.Location = new System.Drawing.Point(258, 13);
+            this.lblTongdanhmuc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTongdanhmuc.Name = "lblTongdanhmuc";
+            this.lblTongdanhmuc.Size = new System.Drawing.Size(29, 20);
+            this.lblTongdanhmuc.TabIndex = 5;
+            this.lblTongdanhmuc.Text = "10";
+            // 
+            // lblTongDM
+            // 
+            this.lblTongDM.AutoSize = true;
+            this.lblTongDM.Font = new System.Drawing.Font("Cambria", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTongDM.Location = new System.Drawing.Point(19, 13);
+            this.lblTongDM.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTongDM.Name = "lblTongDM";
+            this.lblTongDM.Size = new System.Drawing.Size(156, 20);
+            this.lblTongDM.TabIndex = 3;
+            this.lblTongDM.Text = "Tổng số tài khoản: ";
+            // 
+            // toolStrip1
+            // 
+            this.toolStrip1.Dock = System.Windows.Forms.DockStyle.None;
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton1,
+            this.toolstripTim,
+            this.toolStripSobanan});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
+            this.toolStrip1.Size = new System.Drawing.Size(712, 27);
+            this.toolStrip1.TabIndex = 34;
+            this.toolStrip1.Text = "toolStrip1";
+            // 
+            // toolstripTim
+            // 
+            this.toolstripTim.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.toolstripTim.Name = "toolstripTim";
+            this.toolstripTim.Size = new System.Drawing.Size(166, 24);
+            this.toolstripTim.Text = "Tìm kiếm tài khoản";
+            // 
+            // toolStripSobanan
+            // 
+            this.toolStripSobanan.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.toolStripSobanan.Name = "toolStripSobanan";
+            this.toolStripSobanan.Size = new System.Drawing.Size(500, 27);
+            // 
+            // toolStripButton1
+            // 
+            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton1.Image = global::quanLyNhaHang_Nhom4.Properties.Resources.Tatice_Cristal_Intense_Loupe_256;
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton1.Text = "toolStripButton1";
+            // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -341,80 +412,9 @@
             this.button3.Text = "Sửa";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.Silver;
-            this.panel5.Controls.Add(this.lblTongdanhmuc);
-            this.panel5.Controls.Add(this.lblTongDM);
-            this.panel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel5.Location = new System.Drawing.Point(0, 60);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(984, 53);
-            this.panel5.TabIndex = 33;
-            // 
-            // lblTongdanhmuc
-            // 
-            this.lblTongdanhmuc.AutoSize = true;
-            this.lblTongdanhmuc.Font = new System.Drawing.Font("Cambria", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTongdanhmuc.Location = new System.Drawing.Point(258, 13);
-            this.lblTongdanhmuc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblTongdanhmuc.Name = "lblTongdanhmuc";
-            this.lblTongdanhmuc.Size = new System.Drawing.Size(46, 32);
-            this.lblTongdanhmuc.TabIndex = 5;
-            this.lblTongdanhmuc.Text = "10";
-            // 
-            // lblTongDM
-            // 
-            this.lblTongDM.AutoSize = true;
-            this.lblTongDM.Font = new System.Drawing.Font("Cambria", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTongDM.Location = new System.Drawing.Point(19, 13);
-            this.lblTongDM.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblTongDM.Name = "lblTongDM";
-            this.lblTongDM.Size = new System.Drawing.Size(243, 32);
-            this.lblTongDM.TabIndex = 3;
-            this.lblTongDM.Text = "Tổng số tài khoản: ";
-            // 
-            // toolStrip1
-            // 
-            this.toolStrip1.Dock = System.Windows.Forms.DockStyle.None;
-            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton1,
-            this.toolstripTim,
-            this.toolStripSobanan});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
-            this.toolStrip1.Size = new System.Drawing.Size(836, 43);
-            this.toolStrip1.TabIndex = 34;
-            this.toolStrip1.Text = "toolStrip1";
-            // 
-            // toolStripButton1
-            // 
-            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton1.Image = global::quanLyNhaHang_Nhom4.Properties.Resources.Tatice_Cristal_Intense_Loupe_256;
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(46, 37);
-            this.toolStripButton1.Text = "toolStripButton1";
-            // 
-            // toolstripTim
-            // 
-            this.toolstripTim.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.toolstripTim.Name = "toolstripTim";
-            this.toolstripTim.Size = new System.Drawing.Size(263, 37);
-            this.toolstripTim.Text = "Tìm kiếm tài khoản";
-            // 
-            // toolStripSobanan
-            // 
-            this.toolStripSobanan.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.toolStripSobanan.Name = "toolStripSobanan";
-            this.toolStripSobanan.Size = new System.Drawing.Size(500, 43);
-            // 
             // frmAdminAccount
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1528, 957);
             this.Controls.Add(this.toolStrip1);

@@ -68,6 +68,12 @@
     <Compile Include="Admin\frmAdminAccount.Designer.cs">
       <DependentUpon>frmAdminAccount.cs</DependentUpon>
     </Compile>
+    <Compile Include="Admin\frmAdminRevenue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\frmAdminRevenue.Designer.cs">
+      <DependentUpon>frmAdminRevenue.cs</DependentUpon>
+    </Compile>
     <Compile Include="Database\Account.cs">
       <DependentUpon>QuanLyNhaHangEntities.tt</DependentUpon>
     </Compile>
@@ -224,8 +230,13 @@
     <EmbeddedResource Include="Admin\frmAdminAccount.resx">
       <DependentUpon>frmAdminAccount.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="Manager\frmAccount.resx">
       <DependentUpon>frmAccount.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="Admin\frmAdminRevenue.resx">
+      <DependentUpon>frmAdminRevenue.cs</DependentUpon>
+>>>>>>> 4bae859a5914f7d406bccf1791336d36aa95071f
     </EmbeddedResource>
     <EmbeddedResource Include="Manager\frmAttendanceList.resx">
       <DependentUpon>frmAttendanceList.cs</DependentUpon>
