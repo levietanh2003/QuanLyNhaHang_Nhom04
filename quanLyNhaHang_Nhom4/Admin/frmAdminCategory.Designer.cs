@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripTracuu = new System.Windows.Forms.ToolStripLabel();
             this.toolStripTxtTracuu = new System.Windows.Forms.ToolStripTextBox();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -42,14 +41,15 @@
             this.lblTotalCategory = new System.Windows.Forms.Label();
             this.lblTongDM = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.btnHienthi = new System.Windows.Forms.Button();
-            this.btnXoa = new System.Windows.Forms.Button();
-            this.btnSua = new System.Windows.Forms.Button();
-            this.btnThem = new System.Windows.Forms.Button();
             this.dgvFoodCategory = new System.Windows.Forms.DataGridView();
             this.colMaDM = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colTenDM = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colSomon = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnHienthi = new System.Windows.Forms.Button();
+            this.btnXoa = new System.Windows.Forms.Button();
+            this.btnSua = new System.Windows.Forms.Button();
+            this.btnThem = new System.Windows.Forms.Button();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -68,32 +68,23 @@
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
-            this.toolStrip1.Size = new System.Drawing.Size(679, 40);
+            this.toolStrip1.Size = new System.Drawing.Size(561, 27);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
-            // 
-            // toolStripButton1
-            // 
-            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton1.Image = global::quanLyNhaHang_Nhom4.Properties.Resources.Tatice_Cristal_Intense_Loupe_256;
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(46, 34);
-            this.toolStripButton1.Text = "Tra cứu danh mục";
             // 
             // toolStripTracuu
             // 
             this.toolStripTracuu.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.toolStripTracuu.Font = new System.Drawing.Font("Cambria", 10.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripTracuu.Name = "toolStripTracuu";
-            this.toolStripTracuu.Size = new System.Drawing.Size(256, 34);
+            this.toolStripTracuu.Size = new System.Drawing.Size(165, 24);
             this.toolStripTracuu.Text = "Tra cứu danh mục";
             // 
             // toolStripTxtTracuu
             // 
             this.toolStripTxtTracuu.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripTxtTracuu.Name = "toolStripTxtTracuu";
-            this.toolStripTxtTracuu.Size = new System.Drawing.Size(350, 40);
+            this.toolStripTxtTracuu.Size = new System.Drawing.Size(350, 27);
             // 
             // panel1
             // 
@@ -116,7 +107,7 @@
             this.txtTenDM.Location = new System.Drawing.Point(218, 494);
             this.txtTenDM.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtTenDM.Name = "txtTenDM";
-            this.txtTenDM.Size = new System.Drawing.Size(193, 32);
+            this.txtTenDM.Size = new System.Drawing.Size(193, 23);
             this.txtTenDM.TabIndex = 4;
             // 
             // txtMaDM
@@ -125,7 +116,7 @@
             this.txtMaDM.Location = new System.Drawing.Point(218, 343);
             this.txtMaDM.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtMaDM.Name = "txtMaDM";
-            this.txtMaDM.Size = new System.Drawing.Size(193, 32);
+            this.txtMaDM.Size = new System.Drawing.Size(193, 23);
             this.txtMaDM.TabIndex = 3;
             // 
             // lblTenDM
@@ -136,7 +127,7 @@
             this.lblTenDM.Location = new System.Drawing.Point(18, 494);
             this.lblTenDM.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTenDM.Name = "lblTenDM";
-            this.lblTenDM.Size = new System.Drawing.Size(187, 32);
+            this.lblTenDM.Size = new System.Drawing.Size(118, 20);
             this.lblTenDM.TabIndex = 2;
             this.lblTenDM.Text = "Tên danh mục";
             // 
@@ -148,7 +139,7 @@
             this.lblMaDM.Location = new System.Drawing.Point(18, 343);
             this.lblMaDM.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMaDM.Name = "lblMaDM";
-            this.lblMaDM.Size = new System.Drawing.Size(178, 32);
+            this.lblMaDM.Size = new System.Drawing.Size(112, 20);
             this.lblMaDM.TabIndex = 1;
             this.lblMaDM.Text = "Mã danh mục";
             // 
@@ -160,7 +151,7 @@
             this.lblThongtin.Location = new System.Drawing.Point(45, 227);
             this.lblThongtin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblThongtin.Name = "lblThongtin";
-            this.lblThongtin.Size = new System.Drawing.Size(389, 47);
+            this.lblThongtin.Size = new System.Drawing.Size(243, 30);
             this.lblThongtin.TabIndex = 0;
             this.lblThongtin.Text = "Thông tin danh mục";
             // 
@@ -183,7 +174,7 @@
             this.lblTotalCategory.Location = new System.Drawing.Point(237, 13);
             this.lblTotalCategory.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTotalCategory.Name = "lblTotalCategory";
-            this.lblTotalCategory.Size = new System.Drawing.Size(30, 32);
+            this.lblTotalCategory.Size = new System.Drawing.Size(19, 20);
             this.lblTotalCategory.TabIndex = 5;
             this.lblTotalCategory.Text = "0";
             // 
@@ -194,7 +185,7 @@
             this.lblTongDM.Location = new System.Drawing.Point(19, 13);
             this.lblTongDM.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTongDM.Name = "lblTongDM";
-            this.lblTongDM.Size = new System.Drawing.Size(210, 32);
+            this.lblTongDM.Size = new System.Drawing.Size(133, 20);
             this.lblTongDM.TabIndex = 3;
             this.lblTongDM.Text = "Tổng danh mục:";
             // 
@@ -211,6 +202,48 @@
             this.panel3.Size = new System.Drawing.Size(984, 145);
             this.panel3.TabIndex = 3;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            // 
+            // dgvFoodCategory
+            // 
+            this.dgvFoodCategory.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvFoodCategory.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.colMaDM,
+            this.colTenDM,
+            this.colSomon});
+            this.dgvFoodCategory.Location = new System.Drawing.Point(0, 159);
+            this.dgvFoodCategory.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.dgvFoodCategory.Name = "dgvFoodCategory";
+            this.dgvFoodCategory.ReadOnly = true;
+            this.dgvFoodCategory.RowHeadersWidth = 51;
+            this.dgvFoodCategory.RowTemplate.Height = 24;
+            this.dgvFoodCategory.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvFoodCategory.Size = new System.Drawing.Size(984, 545);
+            this.dgvFoodCategory.TabIndex = 4;
+            this.dgvFoodCategory.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // colMaDM
+            // 
+            this.colMaDM.HeaderText = "Mã danh mục";
+            this.colMaDM.MinimumWidth = 6;
+            this.colMaDM.Name = "colMaDM";
+            this.colMaDM.ReadOnly = true;
+            this.colMaDM.Width = 150;
+            // 
+            // colTenDM
+            // 
+            this.colTenDM.HeaderText = "Tên danh mục";
+            this.colTenDM.MinimumWidth = 6;
+            this.colTenDM.Name = "colTenDM";
+            this.colTenDM.ReadOnly = true;
+            this.colTenDM.Width = 300;
+            // 
+            // colSomon
+            // 
+            this.colSomon.HeaderText = "Số món ăn";
+            this.colSomon.MinimumWidth = 6;
+            this.colSomon.Name = "colSomon";
+            this.colSomon.ReadOnly = true;
+            this.colSomon.Width = 200;
             // 
             // btnHienthi
             // 
@@ -266,51 +299,18 @@
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
             // 
-            // dgvFoodCategory
+            // toolStripButton1
             // 
-            this.dgvFoodCategory.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvFoodCategory.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.colMaDM,
-            this.colTenDM,
-            this.colSomon});
-            this.dgvFoodCategory.Location = new System.Drawing.Point(0, 159);
-            this.dgvFoodCategory.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.dgvFoodCategory.Name = "dgvFoodCategory";
-            this.dgvFoodCategory.ReadOnly = true;
-            this.dgvFoodCategory.RowHeadersWidth = 51;
-            this.dgvFoodCategory.RowTemplate.Height = 24;
-            this.dgvFoodCategory.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvFoodCategory.Size = new System.Drawing.Size(984, 545);
-            this.dgvFoodCategory.TabIndex = 4;
-            this.dgvFoodCategory.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // colMaDM
-            // 
-            this.colMaDM.HeaderText = "Mã danh mục";
-            this.colMaDM.MinimumWidth = 6;
-            this.colMaDM.Name = "colMaDM";
-            this.colMaDM.ReadOnly = true;
-            this.colMaDM.Width = 150;
-            // 
-            // colTenDM
-            // 
-            this.colTenDM.HeaderText = "Tên danh mục";
-            this.colTenDM.MinimumWidth = 6;
-            this.colTenDM.Name = "colTenDM";
-            this.colTenDM.ReadOnly = true;
-            this.colTenDM.Width = 300;
-            // 
-            // colSomon
-            // 
-            this.colSomon.HeaderText = "Số món ăn";
-            this.colSomon.MinimumWidth = 6;
-            this.colSomon.Name = "colSomon";
-            this.colSomon.ReadOnly = true;
-            this.colSomon.Width = 200;
+            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton1.Image = global::quanLyNhaHang_Nhom4.Properties.Resources.Tatice_Cristal_Intense_Loupe_256;
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton1.Text = "Tra cứu danh mục";
             // 
             // frmAdminCategory
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1528, 957);
             this.Controls.Add(this.dgvFoodCategory);

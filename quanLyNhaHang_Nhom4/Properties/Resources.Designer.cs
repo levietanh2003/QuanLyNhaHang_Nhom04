@@ -173,6 +173,16 @@ namespace quanLyNhaHang_Nhom4.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap printer__1_ {
+            get {
+                object obj = ResourceManager.GetObject("printer (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Tatice_Cristal_Intense_Loupe_256 {
             get {
                 object obj = ResourceManager.GetObject("Tatice-Cristal-Intense-Loupe.256", resourceCulture);
