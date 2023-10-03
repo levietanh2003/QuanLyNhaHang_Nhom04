@@ -28,78 +28,297 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAttendanceList));
-            this.pnTimeSheetsList = new System.Windows.Forms.Panel();
-            this.lblTimeSheetsList = new System.Windows.Forms.Label();
-            this.dgvAttendanceList = new System.Windows.Forms.DataGridView();
-            this.dgv_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgv_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgv_datetime = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pnInfoStaff = new System.Windows.Forms.Panel();
-            this.btnRollUp = new System.Windows.Forms.Button();
-            this.txtAdress = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.rtbAddress = new System.Windows.Forms.RichTextBox();
+            this.btnFindStaff = new System.Windows.Forms.Button();
+            this.btnCheckIn = new System.Windows.Forms.Button();
             this.txtPhoneNumber = new System.Windows.Forms.TextBox();
             this.txtIdentityCard = new System.Windows.Forms.TextBox();
             this.txtDateOfBirth = new System.Windows.Forms.TextBox();
             this.txtPosition = new System.Windows.Forms.TextBox();
-            this.lblAdress = new System.Windows.Forms.Label();
-            this.lblPhoneNumber = new System.Windows.Forms.Label();
-            this.lblIdentityCard = new System.Windows.Forms.Label();
-            this.lblDateOfBirth = new System.Windows.Forms.Label();
-            this.lblPosition = new System.Windows.Forms.Label();
             this.txtSex = new System.Windows.Forms.TextBox();
-            this.lblSex = new System.Windows.Forms.Label();
             this.txtStaffName = new System.Windows.Forms.TextBox();
-            this.lblStaffName = new System.Windows.Forms.Label();
-            this.lblStaffInfo = new System.Windows.Forms.Label();
             this.txtStaffID = new System.Windows.Forms.TextBox();
-            this.lblStaffID = new System.Windows.Forms.Label();
-            this.lblTimeSheets = new System.Windows.Forms.Label();
-            this.btnFindStaff = new FontAwesome.Sharp.IconButton();
-            this.pnTimeSheetsList.SuspendLayout();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dgvAttendanceList = new System.Windows.Forms.DataGridView();
+            this.dgv_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgv_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgv_datetime = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pnTimeSheetsList = new System.Windows.Forms.Panel();
+            this.lblTimeSheetsList = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAttendanceList)).BeginInit();
-            this.pnInfoStaff.SuspendLayout();
+            this.pnTimeSheetsList.SuspendLayout();
             this.SuspendLayout();
             // 
-            // pnTimeSheetsList
+            // panel1
             // 
-            this.pnTimeSheetsList.BackColor = System.Drawing.SystemColors.Menu;
-            this.pnTimeSheetsList.Controls.Add(this.lblTimeSheetsList);
-            this.pnTimeSheetsList.Location = new System.Drawing.Point(0, 0);
-            this.pnTimeSheetsList.Name = "pnTimeSheetsList";
-            this.pnTimeSheetsList.Size = new System.Drawing.Size(757, 59);
-            this.pnTimeSheetsList.TabIndex = 13;
+            this.panel1.BackColor = System.Drawing.Color.DimGray;
+            this.panel1.Controls.Add(this.rtbAddress);
+            this.panel1.Controls.Add(this.btnFindStaff);
+            this.panel1.Controls.Add(this.btnCheckIn);
+            this.panel1.Controls.Add(this.txtPhoneNumber);
+            this.panel1.Controls.Add(this.txtIdentityCard);
+            this.panel1.Controls.Add(this.txtDateOfBirth);
+            this.panel1.Controls.Add(this.txtPosition);
+            this.panel1.Controls.Add(this.txtSex);
+            this.panel1.Controls.Add(this.txtStaffName);
+            this.panel1.Controls.Add(this.txtStaffID);
+            this.panel1.Controls.Add(this.label10);
+            this.panel1.Controls.Add(this.label9);
+            this.panel1.Controls.Add(this.label8);
+            this.panel1.Controls.Add(this.label7);
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel1.ForeColor = System.Drawing.Color.Black;
+            this.panel1.Location = new System.Drawing.Point(904, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(624, 957);
+            this.panel1.TabIndex = 0;
             // 
-            // lblTimeSheetsList
+            // rtbAddress
             // 
-            this.lblTimeSheetsList.AutoSize = true;
-            this.lblTimeSheetsList.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblTimeSheetsList.ForeColor = System.Drawing.Color.Black;
-            this.lblTimeSheetsList.Location = new System.Drawing.Point(52, 11);
-            this.lblTimeSheetsList.Name = "lblTimeSheetsList";
-            this.lblTimeSheetsList.Size = new System.Drawing.Size(313, 32);
-            this.lblTimeSheetsList.TabIndex = 18;
-            this.lblTimeSheetsList.Text = "Danh sách chấm công";
+            this.rtbAddress.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rtbAddress.Location = new System.Drawing.Point(224, 569);
+            this.rtbAddress.Name = "rtbAddress";
+            this.rtbAddress.ReadOnly = true;
+            this.rtbAddress.Size = new System.Drawing.Size(294, 106);
+            this.rtbAddress.TabIndex = 6;
+            this.rtbAddress.Text = "";
+            // 
+            // btnFindStaff
+            // 
+            this.btnFindStaff.Image = global::quanLyNhaHang_Nhom4.Properties.Resources.low_vision_solid_24;
+            this.btnFindStaff.Location = new System.Drawing.Point(494, 148);
+            this.btnFindStaff.Name = "btnFindStaff";
+            this.btnFindStaff.Size = new System.Drawing.Size(76, 69);
+            this.btnFindStaff.TabIndex = 5;
+            this.btnFindStaff.UseVisualStyleBackColor = true;
+            this.btnFindStaff.Click += new System.EventHandler(this.btnFindStaff_Click);
+            // 
+            // btnCheckIn
+            // 
+            this.btnCheckIn.Font = new System.Drawing.Font("Cambria", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCheckIn.Location = new System.Drawing.Point(260, 722);
+            this.btnCheckIn.Name = "btnCheckIn";
+            this.btnCheckIn.Size = new System.Drawing.Size(214, 63);
+            this.btnCheckIn.TabIndex = 4;
+            this.btnCheckIn.Text = "Điểm danh";
+            this.btnCheckIn.UseVisualStyleBackColor = true;
+            this.btnCheckIn.Click += new System.EventHandler(this.btnCheckIn_Click);
+            // 
+            // txtPhoneNumber
+            // 
+            this.txtPhoneNumber.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPhoneNumber.Location = new System.Drawing.Point(224, 527);
+            this.txtPhoneNumber.Name = "txtPhoneNumber";
+            this.txtPhoneNumber.ReadOnly = true;
+            this.txtPhoneNumber.Size = new System.Drawing.Size(280, 36);
+            this.txtPhoneNumber.TabIndex = 2;
+            // 
+            // txtIdentityCard
+            // 
+            this.txtIdentityCard.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIdentityCard.Location = new System.Drawing.Point(224, 485);
+            this.txtIdentityCard.Name = "txtIdentityCard";
+            this.txtIdentityCard.ReadOnly = true;
+            this.txtIdentityCard.Size = new System.Drawing.Size(280, 36);
+            this.txtIdentityCard.TabIndex = 2;
+            // 
+            // txtDateOfBirth
+            // 
+            this.txtDateOfBirth.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDateOfBirth.Location = new System.Drawing.Point(224, 442);
+            this.txtDateOfBirth.Name = "txtDateOfBirth";
+            this.txtDateOfBirth.ReadOnly = true;
+            this.txtDateOfBirth.Size = new System.Drawing.Size(280, 36);
+            this.txtDateOfBirth.TabIndex = 2;
+            // 
+            // txtPosition
+            // 
+            this.txtPosition.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPosition.Location = new System.Drawing.Point(224, 400);
+            this.txtPosition.Name = "txtPosition";
+            this.txtPosition.ReadOnly = true;
+            this.txtPosition.Size = new System.Drawing.Size(280, 36);
+            this.txtPosition.TabIndex = 2;
+            // 
+            // txtSex
+            // 
+            this.txtSex.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSex.Location = new System.Drawing.Point(224, 358);
+            this.txtSex.Name = "txtSex";
+            this.txtSex.ReadOnly = true;
+            this.txtSex.Size = new System.Drawing.Size(171, 36);
+            this.txtSex.TabIndex = 2;
+            // 
+            // txtStaffName
+            // 
+            this.txtStaffName.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtStaffName.Location = new System.Drawing.Point(224, 316);
+            this.txtStaffName.Name = "txtStaffName";
+            this.txtStaffName.ReadOnly = true;
+            this.txtStaffName.Size = new System.Drawing.Size(280, 36);
+            this.txtStaffName.TabIndex = 2;
+            // 
+            // txtStaffID
+            // 
+            this.txtStaffID.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtStaffID.Location = new System.Drawing.Point(204, 163);
+            this.txtStaffID.Name = "txtStaffID";
+            this.txtStaffID.Size = new System.Drawing.Size(221, 36);
+            this.txtStaffID.TabIndex = 2;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Cambria", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.White;
+            this.label10.Location = new System.Drawing.Point(76, 579);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(120, 32);
+            this.label10.TabIndex = 1;
+            this.label10.Text = "Địa Chỉ  :";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Cambria", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.Location = new System.Drawing.Point(76, 530);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(77, 32);
+            this.label9.TabIndex = 1;
+            this.label9.Text = "SĐT :";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Cambria", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Location = new System.Drawing.Point(76, 488);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(92, 32);
+            this.label8.TabIndex = 1;
+            this.label8.Text = "CCCD :";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Cambria", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(76, 445);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(147, 32);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "Ngày Sinh :";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Cambria", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(76, 403);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(128, 32);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Chức Vụ :";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Cambria", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(76, 361);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(142, 32);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Giới Tính :";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Cambria", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(76, 319);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(114, 32);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Họ Tên :";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Cambria", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(76, 163);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(106, 32);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Mã NV :";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Cambria", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Transparent;
+            this.label4.Location = new System.Drawing.Point(111, 233);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(407, 47);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Thông Tin Nhân Viên";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Cambria", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Transparent;
+            this.label1.Location = new System.Drawing.Point(194, 39);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(266, 57);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Chấm công";
             // 
             // dgvAttendanceList
             // 
+            this.dgvAttendanceList.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvAttendanceList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvAttendanceList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dgv_id,
             this.dgv_name,
             this.dgv_datetime});
-            this.dgvAttendanceList.Location = new System.Drawing.Point(0, 55);
+            this.dgvAttendanceList.Location = new System.Drawing.Point(0, 118);
+            this.dgvAttendanceList.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dgvAttendanceList.Name = "dgvAttendanceList";
-            this.dgvAttendanceList.RowHeadersWidth = 51;
+            this.dgvAttendanceList.ReadOnly = true;
+            this.dgvAttendanceList.RowHeadersWidth = 81;
             this.dgvAttendanceList.RowTemplate.Height = 24;
-            this.dgvAttendanceList.Size = new System.Drawing.Size(757, 692);
-            this.dgvAttendanceList.TabIndex = 14;
+            this.dgvAttendanceList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvAttendanceList.Size = new System.Drawing.Size(871, 825);
+            this.dgvAttendanceList.TabIndex = 18;
             // 
             // dgv_id
             // 
             this.dgv_id.HeaderText = "Mã nhân viên";
             this.dgv_id.MinimumWidth = 6;
             this.dgv_id.Name = "dgv_id";
+            this.dgv_id.ReadOnly = true;
             this.dgv_id.Width = 150;
             // 
             // dgv_name
@@ -107,6 +326,7 @@
             this.dgv_name.HeaderText = "Tên nhân viên";
             this.dgv_name.MinimumWidth = 6;
             this.dgv_name.Name = "dgv_name";
+            this.dgv_name.ReadOnly = true;
             this.dgv_name.Width = 250;
             // 
             // dgv_datetime
@@ -114,274 +334,81 @@
             this.dgv_datetime.HeaderText = "Ngày điểm danh";
             this.dgv_datetime.MinimumWidth = 6;
             this.dgv_datetime.Name = "dgv_datetime";
+            this.dgv_datetime.ReadOnly = true;
             this.dgv_datetime.Width = 300;
             // 
-            // pnInfoStaff
+            // pnTimeSheetsList
             // 
-            this.pnInfoStaff.BackColor = System.Drawing.Color.DimGray;
-            this.pnInfoStaff.Controls.Add(this.btnFindStaff);
-            this.pnInfoStaff.Controls.Add(this.btnRollUp);
-            this.pnInfoStaff.Controls.Add(this.txtAdress);
-            this.pnInfoStaff.Controls.Add(this.txtPhoneNumber);
-            this.pnInfoStaff.Controls.Add(this.txtIdentityCard);
-            this.pnInfoStaff.Controls.Add(this.txtDateOfBirth);
-            this.pnInfoStaff.Controls.Add(this.txtPosition);
-            this.pnInfoStaff.Controls.Add(this.lblAdress);
-            this.pnInfoStaff.Controls.Add(this.lblPhoneNumber);
-            this.pnInfoStaff.Controls.Add(this.lblIdentityCard);
-            this.pnInfoStaff.Controls.Add(this.lblDateOfBirth);
-            this.pnInfoStaff.Controls.Add(this.lblPosition);
-            this.pnInfoStaff.Controls.Add(this.txtSex);
-            this.pnInfoStaff.Controls.Add(this.lblSex);
-            this.pnInfoStaff.Controls.Add(this.txtStaffName);
-            this.pnInfoStaff.Controls.Add(this.lblStaffName);
-            this.pnInfoStaff.Controls.Add(this.lblStaffInfo);
-            this.pnInfoStaff.Controls.Add(this.txtStaffID);
-            this.pnInfoStaff.Controls.Add(this.lblStaffID);
-            this.pnInfoStaff.Controls.Add(this.lblTimeSheets);
-            this.pnInfoStaff.Location = new System.Drawing.Point(753, 0);
-            this.pnInfoStaff.Name = "pnInfoStaff";
-            this.pnInfoStaff.Size = new System.Drawing.Size(515, 804);
-            this.pnInfoStaff.TabIndex = 15;
+            this.pnTimeSheetsList.BackColor = System.Drawing.SystemColors.Menu;
+            this.pnTimeSheetsList.Controls.Add(this.lblTimeSheetsList);
+            this.pnTimeSheetsList.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pnTimeSheetsList.Location = new System.Drawing.Point(0, 0);
+            this.pnTimeSheetsList.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pnTimeSheetsList.Name = "pnTimeSheetsList";
+            this.pnTimeSheetsList.Size = new System.Drawing.Size(871, 89);
+            this.pnTimeSheetsList.TabIndex = 19;
             // 
-            // btnRollUp
+            // lblTimeSheetsList
             // 
-            this.btnRollUp.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnRollUp.Image = ((System.Drawing.Image)(resources.GetObject("btnRollUp.Image")));
-            this.btnRollUp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRollUp.Location = new System.Drawing.Point(176, 634);
-            this.btnRollUp.Name = "btnRollUp";
-            this.btnRollUp.Size = new System.Drawing.Size(131, 61);
-            this.btnRollUp.TabIndex = 18;
-            this.btnRollUp.Text = "Điểm danh";
-            this.btnRollUp.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnRollUp.UseVisualStyleBackColor = true;
-            // 
-            // txtAdress
-            // 
-            this.txtAdress.Location = new System.Drawing.Point(127, 535);
-            this.txtAdress.Margin = new System.Windows.Forms.Padding(5);
-            this.txtAdress.Name = "txtAdress";
-            this.txtAdress.Size = new System.Drawing.Size(229, 22);
-            this.txtAdress.TabIndex = 17;
-            // 
-            // txtPhoneNumber
-            // 
-            this.txtPhoneNumber.Location = new System.Drawing.Point(127, 468);
-            this.txtPhoneNumber.Name = "txtPhoneNumber";
-            this.txtPhoneNumber.Size = new System.Drawing.Size(169, 22);
-            this.txtPhoneNumber.TabIndex = 16;
-            // 
-            // txtIdentityCard
-            // 
-            this.txtIdentityCard.Location = new System.Drawing.Point(127, 421);
-            this.txtIdentityCard.Name = "txtIdentityCard";
-            this.txtIdentityCard.Size = new System.Drawing.Size(206, 22);
-            this.txtIdentityCard.TabIndex = 15;
-            // 
-            // txtDateOfBirth
-            // 
-            this.txtDateOfBirth.Location = new System.Drawing.Point(127, 358);
-            this.txtDateOfBirth.Name = "txtDateOfBirth";
-            this.txtDateOfBirth.Size = new System.Drawing.Size(208, 22);
-            this.txtDateOfBirth.TabIndex = 14;
-            // 
-            // txtPosition
-            // 
-            this.txtPosition.Location = new System.Drawing.Point(127, 308);
-            this.txtPosition.Name = "txtPosition";
-            this.txtPosition.Size = new System.Drawing.Size(189, 22);
-            this.txtPosition.TabIndex = 13;
-            // 
-            // lblAdress
-            // 
-            this.lblAdress.AutoSize = true;
-            this.lblAdress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblAdress.ForeColor = System.Drawing.Color.White;
-            this.lblAdress.Location = new System.Drawing.Point(11, 535);
-            this.lblAdress.Name = "lblAdress";
-            this.lblAdress.Size = new System.Drawing.Size(92, 25);
-            this.lblAdress.TabIndex = 12;
-            this.lblAdress.Text = "Địa Chỉ  :";
-            // 
-            // lblPhoneNumber
-            // 
-            this.lblPhoneNumber.AutoSize = true;
-            this.lblPhoneNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblPhoneNumber.ForeColor = System.Drawing.Color.White;
-            this.lblPhoneNumber.Location = new System.Drawing.Point(11, 468);
-            this.lblPhoneNumber.Name = "lblPhoneNumber";
-            this.lblPhoneNumber.Size = new System.Drawing.Size(64, 25);
-            this.lblPhoneNumber.TabIndex = 11;
-            this.lblPhoneNumber.Text = "SĐT :";
-            // 
-            // lblIdentityCard
-            // 
-            this.lblIdentityCard.AutoSize = true;
-            this.lblIdentityCard.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblIdentityCard.ForeColor = System.Drawing.Color.White;
-            this.lblIdentityCard.Location = new System.Drawing.Point(11, 417);
-            this.lblIdentityCard.Name = "lblIdentityCard";
-            this.lblIdentityCard.Size = new System.Drawing.Size(82, 25);
-            this.lblIdentityCard.TabIndex = 10;
-            this.lblIdentityCard.Text = "CCCD :";
-            // 
-            // lblDateOfBirth
-            // 
-            this.lblDateOfBirth.AutoSize = true;
-            this.lblDateOfBirth.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblDateOfBirth.ForeColor = System.Drawing.Color.White;
-            this.lblDateOfBirth.Location = new System.Drawing.Point(11, 358);
-            this.lblDateOfBirth.Name = "lblDateOfBirth";
-            this.lblDateOfBirth.Size = new System.Drawing.Size(114, 25);
-            this.lblDateOfBirth.TabIndex = 9;
-            this.lblDateOfBirth.Text = "Ngày Sinh :";
-            // 
-            // lblPosition
-            // 
-            this.lblPosition.AutoSize = true;
-            this.lblPosition.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblPosition.ForeColor = System.Drawing.Color.White;
-            this.lblPosition.Location = new System.Drawing.Point(10, 308);
-            this.lblPosition.Name = "lblPosition";
-            this.lblPosition.Size = new System.Drawing.Size(100, 25);
-            this.lblPosition.TabIndex = 8;
-            this.lblPosition.Text = "Chức Vụ :";
-            // 
-            // txtSex
-            // 
-            this.txtSex.Location = new System.Drawing.Point(127, 256);
-            this.txtSex.Name = "txtSex";
-            this.txtSex.Size = new System.Drawing.Size(124, 22);
-            this.txtSex.TabIndex = 7;
-            // 
-            // lblSex
-            // 
-            this.lblSex.AutoSize = true;
-            this.lblSex.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblSex.ForeColor = System.Drawing.Color.White;
-            this.lblSex.Location = new System.Drawing.Point(11, 256);
-            this.lblSex.Name = "lblSex";
-            this.lblSex.Size = new System.Drawing.Size(101, 25);
-            this.lblSex.TabIndex = 6;
-            this.lblSex.Text = "Giới Tính :";
-            // 
-            // txtStaffName
-            // 
-            this.txtStaffName.Location = new System.Drawing.Point(127, 203);
-            this.txtStaffName.Name = "txtStaffName";
-            this.txtStaffName.Size = new System.Drawing.Size(250, 22);
-            this.txtStaffName.TabIndex = 5;
-            // 
-            // lblStaffName
-            // 
-            this.lblStaffName.AutoSize = true;
-            this.lblStaffName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblStaffName.ForeColor = System.Drawing.Color.White;
-            this.lblStaffName.Location = new System.Drawing.Point(11, 199);
-            this.lblStaffName.Name = "lblStaffName";
-            this.lblStaffName.Size = new System.Drawing.Size(88, 25);
-            this.lblStaffName.TabIndex = 4;
-            this.lblStaffName.Text = "Họ Tên :";
-            // 
-            // lblStaffInfo
-            // 
-            this.lblStaffInfo.AutoSize = true;
-            this.lblStaffInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblStaffInfo.ForeColor = System.Drawing.Color.White;
-            this.lblStaffInfo.Location = new System.Drawing.Point(89, 134);
-            this.lblStaffInfo.Name = "lblStaffInfo";
-            this.lblStaffInfo.Size = new System.Drawing.Size(301, 32);
-            this.lblStaffInfo.TabIndex = 3;
-            this.lblStaffInfo.Text = "Thông Tin Nhân Viên";
-            // 
-            // txtStaffID
-            // 
-            this.txtStaffID.Location = new System.Drawing.Point(127, 86);
-            this.txtStaffID.Name = "txtStaffID";
-            this.txtStaffID.Size = new System.Drawing.Size(189, 22);
-            this.txtStaffID.TabIndex = 2;
-            // 
-            // lblStaffID
-            // 
-            this.lblStaffID.AutoSize = true;
-            this.lblStaffID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblStaffID.ForeColor = System.Drawing.Color.White;
-            this.lblStaffID.Location = new System.Drawing.Point(10, 86);
-            this.lblStaffID.Name = "lblStaffID";
-            this.lblStaffID.Size = new System.Drawing.Size(84, 25);
-            this.lblStaffID.TabIndex = 1;
-            this.lblStaffID.Text = "Mã NV :";
-            // 
-            // lblTimeSheets
-            // 
-            this.lblTimeSheets.AutoSize = true;
-            this.lblTimeSheets.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblTimeSheets.ForeColor = System.Drawing.Color.White;
-            this.lblTimeSheets.Location = new System.Drawing.Point(149, 11);
-            this.lblTimeSheets.Name = "lblTimeSheets";
-            this.lblTimeSheets.Size = new System.Drawing.Size(167, 32);
-            this.lblTimeSheets.TabIndex = 0;
-            this.lblTimeSheets.Text = "Chấm công";
-            // 
-            // btnFindStaff
-            // 
-            this.btnFindStaff.IconChar = FontAwesome.Sharp.IconChar.Eye;
-            this.btnFindStaff.IconColor = System.Drawing.Color.Black;
-            this.btnFindStaff.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnFindStaff.Location = new System.Drawing.Point(369, 74);
-            this.btnFindStaff.Name = "btnFindStaff";
-            this.btnFindStaff.Size = new System.Drawing.Size(75, 46);
-            this.btnFindStaff.TabIndex = 19;
-            this.btnFindStaff.UseVisualStyleBackColor = true;
+            this.lblTimeSheetsList.AutoSize = true;
+            this.lblTimeSheetsList.Font = new System.Drawing.Font("Cambria", 19.875F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lblTimeSheetsList.ForeColor = System.Drawing.Color.Black;
+            this.lblTimeSheetsList.Location = new System.Drawing.Point(72, 17);
+            this.lblTimeSheetsList.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTimeSheetsList.Name = "lblTimeSheetsList";
+            this.lblTimeSheetsList.Size = new System.Drawing.Size(548, 62);
+            this.lblTimeSheetsList.TabIndex = 18;
+            this.lblTimeSheetsList.Text = "Danh sách chấm công";
             // 
             // frmAttendanceList
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1231, 747);
-            this.Controls.Add(this.pnInfoStaff);
-            this.Controls.Add(this.dgvAttendanceList);
+            this.ClientSize = new System.Drawing.Size(1528, 957);
             this.Controls.Add(this.pnTimeSheetsList);
+            this.Controls.Add(this.dgvAttendanceList);
+            this.Controls.Add(this.panel1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmAttendanceList";
             this.Text = "frmAttendanceList";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAttendanceList)).EndInit();
             this.pnTimeSheetsList.ResumeLayout(false);
             this.pnTimeSheetsList.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAttendanceList)).EndInit();
-            this.pnInfoStaff.ResumeLayout(false);
-            this.pnInfoStaff.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel pnTimeSheetsList;
-        private System.Windows.Forms.Label lblTimeSheetsList;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtStaffID;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtStaffName;
+        private System.Windows.Forms.TextBox txtSex;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtPosition;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txtDateOfBirth;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtIdentityCard;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox txtPhoneNumber;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button btnCheckIn;
+        private System.Windows.Forms.Button btnFindStaff;
         private System.Windows.Forms.DataGridView dgvAttendanceList;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgv_id;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgv_name;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgv_datetime;
-        private System.Windows.Forms.Panel pnInfoStaff;
-        private System.Windows.Forms.Button btnRollUp;
-        private System.Windows.Forms.TextBox txtAdress;
-        private System.Windows.Forms.TextBox txtPhoneNumber;
-        private System.Windows.Forms.TextBox txtIdentityCard;
-        private System.Windows.Forms.TextBox txtDateOfBirth;
-        private System.Windows.Forms.TextBox txtPosition;
-        private System.Windows.Forms.Label lblAdress;
-        private System.Windows.Forms.Label lblPhoneNumber;
-        private System.Windows.Forms.Label lblIdentityCard;
-        private System.Windows.Forms.Label lblDateOfBirth;
-        private System.Windows.Forms.Label lblPosition;
-        private System.Windows.Forms.TextBox txtSex;
-        private System.Windows.Forms.Label lblSex;
-        private System.Windows.Forms.TextBox txtStaffName;
-        private System.Windows.Forms.Label lblStaffName;
-        private System.Windows.Forms.Label lblStaffInfo;
-        private System.Windows.Forms.TextBox txtStaffID;
-        private System.Windows.Forms.Label lblStaffID;
-        private System.Windows.Forms.Label lblTimeSheets;
-        private FontAwesome.Sharp.IconButton btnFindStaff;
+        private System.Windows.Forms.Panel pnTimeSheetsList;
+        private System.Windows.Forms.Label lblTimeSheetsList;
+        private System.Windows.Forms.RichTextBox rtbAddress;
     }
 }

@@ -126,14 +126,4 @@
   <metadata name="dgv_datetime.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btnRollUp.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAANJJREFUSEvt
-        1TEKAjEQheG1tfEKVuIRVBBsrbyRehwrz2CtjUfwBhb26j+wgSiTdbIJuov74IMQNvPABCy6KBliW5J1
-        KNbvzFngUZJ1KNbvzPla8Rwn3OEG1SUzjpiiMgPcoA1JcUUfwcygHcxhgmD8ezrjkEhmuHmV9578QN5i
-        nteI4p/91Ll1xS/RiuWuXGQds+drT/EF7u9O1jF7vujiXNpTbL1Pbc/XnmLrQ9L2fNHFuTSzeAztUA4j
-        VGYP7WCKHT6mhxU2cI+lrjWW+PsUxROYBa4sBhP68wAAAABJRU5ErkJggg==
-</value>
-  </data>
 </root>
