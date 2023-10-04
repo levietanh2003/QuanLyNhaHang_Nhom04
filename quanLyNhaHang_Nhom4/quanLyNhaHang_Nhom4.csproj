@@ -164,6 +164,12 @@
     <Compile Include="Manager\frmAccount.Designer.cs">
       <DependentUpon>frmAccount.cs</DependentUpon>
     </Compile>
+    <Compile Include="Manager\frmAddWareHouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager\frmAddWareHouse.Designer.cs">
+      <DependentUpon>frmAddWareHouse.cs</DependentUpon>
+    </Compile>
     <Compile Include="Manager\frmAttendanceList.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -212,6 +218,12 @@
     <Compile Include="Manager\frmManagerFood.Designer.cs">
       <DependentUpon>frmManagerFood.cs</DependentUpon>
     </Compile>
+    <Compile Include="Manager\frmTableManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager\frmTableManager.Designer.cs">
+      <DependentUpon>frmTableManager.cs</DependentUpon>
+    </Compile>
     <Compile Include="Manager\frmWareHouse.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -230,13 +242,14 @@
     <EmbeddedResource Include="Admin\frmAdminAccount.resx">
       <DependentUpon>frmAdminAccount.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
     <EmbeddedResource Include="Manager\frmAccount.resx">
       <DependentUpon>frmAccount.cs</DependentUpon>
-=======
+    </EmbeddedResource>
     <EmbeddedResource Include="Admin\frmAdminRevenue.resx">
       <DependentUpon>frmAdminRevenue.cs</DependentUpon>
->>>>>>> 4bae859a5914f7d406bccf1791336d36aa95071f
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager\frmAddWareHouse.resx">
+      <DependentUpon>frmAddWareHouse.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Manager\frmAttendanceList.resx">
       <DependentUpon>frmAttendanceList.cs</DependentUpon>
@@ -261,6 +274,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Manager\frmManagerFood.resx">
       <DependentUpon>frmManagerFood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager\frmTableManager.resx">
+      <DependentUpon>frmTableManager.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Manager\frmWareHouse.resx">
       <DependentUpon>frmWareHouse.cs</DependentUpon>
