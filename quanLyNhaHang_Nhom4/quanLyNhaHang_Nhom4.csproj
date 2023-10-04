@@ -230,13 +230,13 @@
     <EmbeddedResource Include="Admin\frmAdminAccount.resx">
       <DependentUpon>frmAdminAccount.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
+
     <EmbeddedResource Include="Manager\frmAccount.resx">
       <DependentUpon>frmAccount.cs</DependentUpon>
-=======
-    <EmbeddedResource Include="Admin\frmAdminRevenue.resx">
+	</EmbeddedResource>
+	<EmbeddedResource Include="Admin\frmAdminRevenue.resx">
       <DependentUpon>frmAdminRevenue.cs</DependentUpon>
->>>>>>> 4bae859a5914f7d406bccf1791336d36aa95071f
+
     </EmbeddedResource>
     <EmbeddedResource Include="Manager\frmAttendanceList.resx">
       <DependentUpon>frmAttendanceList.cs</DependentUpon>
