@@ -158,11 +158,11 @@
     <Compile Include="Database\USP_Login_Result.cs">
       <DependentUpon>QuanLyNhaHangEntities.tt</DependentUpon>
     </Compile>
-    <Compile Include="Manager\frmAccount.cs">
+    <Compile Include="Manager\frmAdminStaff.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Manager\frmAccount.Designer.cs">
-      <DependentUpon>frmAccount.cs</DependentUpon>
+    <Compile Include="Manager\frmAdminStaff.Designer.cs">
+      <DependentUpon>frmAdminStaff.cs</DependentUpon>
     </Compile>
     <Compile Include="Manager\frmAttendanceList.cs">
       <SubType>Form</SubType>
@@ -230,13 +230,11 @@
     <EmbeddedResource Include="Admin\frmAdminAccount.resx">
       <DependentUpon>frmAdminAccount.cs</DependentUpon>
     </EmbeddedResource>
-
-    <EmbeddedResource Include="Manager\frmAccount.resx">
-      <DependentUpon>frmAccount.cs</DependentUpon>
-	</EmbeddedResource>
-	<EmbeddedResource Include="Admin\frmAdminRevenue.resx">
+    <EmbeddedResource Include="Manager\frmAdminStaff.resx">
+      <DependentUpon>frmAdminStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\frmAdminRevenue.resx">
       <DependentUpon>frmAdminRevenue.cs</DependentUpon>
-
     </EmbeddedResource>
     <EmbeddedResource Include="Manager\frmAttendanceList.resx">
       <DependentUpon>frmAttendanceList.cs</DependentUpon>
