@@ -482,10 +482,10 @@
             this.btnSaveBillOfWH.IconChar = FontAwesome.Sharp.IconChar.FloppyDisk;
             this.btnSaveBillOfWH.IconColor = System.Drawing.Color.Black;
             this.btnSaveBillOfWH.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnSaveBillOfWH.Location = new System.Drawing.Point(754, 271);
+            this.btnSaveBillOfWH.Location = new System.Drawing.Point(770, 271);
             this.btnSaveBillOfWH.Margin = new System.Windows.Forms.Padding(8);
             this.btnSaveBillOfWH.Name = "btnSaveBillOfWH";
-            this.btnSaveBillOfWH.Size = new System.Drawing.Size(303, 66);
+            this.btnSaveBillOfWH.Size = new System.Drawing.Size(306, 69);
             this.btnSaveBillOfWH.TabIndex = 16;
             this.btnSaveBillOfWH.Text = "Lưu hóa đơn";
             this.btnSaveBillOfWH.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;

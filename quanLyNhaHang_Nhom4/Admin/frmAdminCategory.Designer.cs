@@ -45,16 +45,16 @@
             this.colMaDM = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colTenDM = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colSomon = new System.Windows.Forms.DataGridViewTextBoxColumn();
-<<<<<<< HEAD
+
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-=======
+
             this.btnHienthi = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
->>>>>>> 4bae859a5914f7d406bccf1791336d36aa95071f
+
             this.toolStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();

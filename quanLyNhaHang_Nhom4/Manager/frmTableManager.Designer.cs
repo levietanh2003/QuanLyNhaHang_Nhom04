@@ -28,11 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmTableManager));
             this.pnlListTable = new System.Windows.Forms.Panel();
             this.flpTable = new System.Windows.Forms.FlowLayoutPanel();
-            this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
-            this.iconPictureBox2 = new FontAwesome.Sharp.IconPictureBox();
             this.pnlTableListName = new System.Windows.Forms.Panel();
             this.lbTableFoodList = new System.Windows.Forms.Label();
             this.pnlHoaDon = new System.Windows.Forms.Panel();
@@ -59,9 +56,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblOrder = new System.Windows.Forms.Label();
             this.pnlListTable.SuspendLayout();
-            this.flpTable.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).BeginInit();
             this.pnlTableListName.SuspendLayout();
             this.pnlHoaDon.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -86,44 +80,12 @@
             // 
             // flpTable
             // 
-            this.flpTable.Controls.Add(this.iconPictureBox1);
-            this.flpTable.Controls.Add(this.iconPictureBox2);
             this.flpTable.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flpTable.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold);
             this.flpTable.Location = new System.Drawing.Point(0, 100);
             this.flpTable.Name = "flpTable";
             this.flpTable.Size = new System.Drawing.Size(611, 846);
             this.flpTable.TabIndex = 1;
-            // 
-            // iconPictureBox1
-            // 
-            this.iconPictureBox1.BackColor = System.Drawing.Color.White;
-            this.iconPictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("iconPictureBox1.BackgroundImage")));
-            this.iconPictureBox1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconPictureBox1.IconColor = System.Drawing.SystemColors.ControlText;
-            this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox1.IconSize = 203;
-            this.iconPictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.iconPictureBox1.Name = "iconPictureBox1";
-            this.iconPictureBox1.Size = new System.Drawing.Size(203, 205);
-            this.iconPictureBox1.TabIndex = 0;
-            this.iconPictureBox1.TabStop = false;
-            // 
-            // iconPictureBox2
-            // 
-            this.iconPictureBox2.BackColor = System.Drawing.Color.White;
-            this.iconPictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("iconPictureBox2.BackgroundImage")));
-            this.iconPictureBox2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.iconPictureBox2.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconPictureBox2.IconColor = System.Drawing.SystemColors.ControlText;
-            this.iconPictureBox2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox2.IconSize = 205;
-            this.iconPictureBox2.Location = new System.Drawing.Point(212, 3);
-            this.iconPictureBox2.Name = "iconPictureBox2";
-            this.iconPictureBox2.Size = new System.Drawing.Size(208, 205);
-            this.iconPictureBox2.TabIndex = 0;
-            this.iconPictureBox2.TabStop = false;
             // 
             // pnlTableListName
             // 
@@ -409,9 +371,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmTableManager";
             this.pnlListTable.ResumeLayout(false);
-            this.flpTable.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).EndInit();
             this.pnlTableListName.ResumeLayout(false);
             this.pnlTableListName.PerformLayout();
             this.pnlHoaDon.ResumeLayout(false);
@@ -459,7 +418,5 @@
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.ColumnHeader columnHeader4;
-        private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
-        private FontAwesome.Sharp.IconPictureBox iconPictureBox2;
     }
 }
