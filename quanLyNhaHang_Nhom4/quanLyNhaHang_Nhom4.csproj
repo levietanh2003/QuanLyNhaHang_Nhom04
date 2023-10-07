@@ -314,6 +314,7 @@
     <Content Include="Resources\icons8-pencil-30.png" />
     <Content Include="Resources\icons8-plus-30.png" />
     <Content Include="Resources\icons8-research-30.png" />
+    <None Include="Resources\printer %281%29.png" />
     <None Include="Resources\low-vision-solid-24.png" />
     <Content Include="Resources\pngtree-unlock-glyph-icon-vector-png-image_1859166.jpg" />
   </ItemGroup>
