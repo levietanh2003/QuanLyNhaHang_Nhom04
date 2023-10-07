@@ -246,9 +246,6 @@ namespace quanLyNhaHang_Nhom4.Manager
         {
 
         }
-
-        #endregion
-
         private void frmMain_FormClosing(object sender, FormClosingEventArgs e)
         {
 
@@ -258,5 +255,14 @@ namespace quanLyNhaHang_Nhom4.Manager
         {
 
         }
+
+        private void btnDisplayName_Click(object sender, EventArgs e)
+        {
+            frmAccount frmAccount = new frmAccount();   
+            frmAccount.Show();
+        }
+        #endregion
+
+
     }
 }

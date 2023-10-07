@@ -29,13 +29,14 @@
         private void InitializeComponent()
         {
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolstripTim = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripSobanan = new System.Windows.Forms.ToolStripTextBox();
             this.dgvBanAn = new System.Windows.Forms.DataGridView();
-            this.colMaBan = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colTenBan = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colTrangThai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.btn_Show = new System.Windows.Forms.Button();
+            this.btn_Delete = new System.Windows.Forms.Button();
+            this.btn_Change = new System.Windows.Forms.Button();
+            this.btn_Add = new System.Windows.Forms.Button();
             this.lblThongtin = new System.Windows.Forms.Label();
             this.lblMaban = new System.Windows.Forms.Label();
             this.lblTenban = new System.Windows.Forms.Label();
@@ -47,11 +48,10 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblTongdanhmuc = new System.Windows.Forms.Label();
             this.lblTongDM = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.dgv_maBanAn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgv_tenBanAn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgv_trangThai = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txt_FindNameTable = new System.Windows.Forms.TextBox();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBanAn)).BeginInit();
             this.panel3.SuspendLayout();
@@ -65,14 +65,22 @@
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton1,
-            this.toolstripTim,
-            this.toolStripSobanan});
+            this.toolstripTim});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
-            this.toolStrip1.Size = new System.Drawing.Size(691, 27);
+            this.toolStrip1.Size = new System.Drawing.Size(189, 27);
             this.toolStrip1.TabIndex = 3;
             this.toolStrip1.Text = "toolStrip1";
+            // 
+            // toolStripButton1
+            // 
+            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton1.Image = global::quanLyNhaHang_Nhom4.Properties.Resources.Tatice_Cristal_Intense_Loupe_256;
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton1.Text = "toolStripButton1";
             // 
             // toolstripTim
             // 
@@ -82,19 +90,13 @@
             this.toolstripTim.Text = "Tìm kiếm bàn ăn";
             this.toolstripTim.Click += new System.EventHandler(this.toolStripLabel1_Click);
             // 
-            // toolStripSobanan
-            // 
-            this.toolStripSobanan.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.toolStripSobanan.Name = "toolStripSobanan";
-            this.toolStripSobanan.Size = new System.Drawing.Size(500, 27);
-            // 
             // dgvBanAn
             // 
             this.dgvBanAn.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvBanAn.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.colMaBan,
-            this.colTenBan,
-            this.colTrangThai});
+            this.dgv_maBanAn,
+            this.dgv_tenBanAn,
+            this.dgv_trangThai});
             this.dgvBanAn.GridColor = System.Drawing.SystemColors.ActiveCaption;
             this.dgvBanAn.Location = new System.Drawing.Point(0, 122);
             this.dgvBanAn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -103,41 +105,79 @@
             this.dgvBanAn.RowTemplate.Height = 24;
             this.dgvBanAn.Size = new System.Drawing.Size(984, 545);
             this.dgvBanAn.TabIndex = 4;
+            this.dgvBanAn.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvBanAn_CellClick);
             this.dgvBanAn.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvList_CellContentClick);
-            // 
-            // colMaBan
-            // 
-            this.colMaBan.HeaderText = "Mã bàn ăn";
-            this.colMaBan.MinimumWidth = 6;
-            this.colMaBan.Name = "colMaBan";
-            this.colMaBan.Width = 200;
-            // 
-            // colTenBan
-            // 
-            this.colTenBan.HeaderText = "Tên bàn ăn";
-            this.colTenBan.MinimumWidth = 6;
-            this.colTenBan.Name = "colTenBan";
-            this.colTenBan.Width = 300;
-            // 
-            // colTrangThai
-            // 
-            this.colTrangThai.HeaderText = "Trạng thái";
-            this.colTrangThai.MinimumWidth = 6;
-            this.colTrangThai.Name = "colTrangThai";
-            this.colTrangThai.Width = 300;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Silver;
-            this.panel3.Controls.Add(this.button1);
-            this.panel3.Controls.Add(this.button2);
-            this.panel3.Controls.Add(this.button3);
-            this.panel3.Controls.Add(this.button4);
+            this.panel3.Controls.Add(this.btn_Show);
+            this.panel3.Controls.Add(this.btn_Delete);
+            this.panel3.Controls.Add(this.btn_Change);
+            this.panel3.Controls.Add(this.btn_Add);
             this.panel3.Location = new System.Drawing.Point(0, 746);
             this.panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(984, 145);
             this.panel3.TabIndex = 12;
+            // 
+            // btn_Show
+            // 
+            this.btn_Show.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Show.Image = global::quanLyNhaHang_Nhom4.Properties.Resources.bx_show_icon;
+            this.btn_Show.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Show.Location = new System.Drawing.Point(756, 37);
+            this.btn_Show.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn_Show.Name = "btn_Show";
+            this.btn_Show.Size = new System.Drawing.Size(169, 72);
+            this.btn_Show.TabIndex = 4;
+            this.btn_Show.Text = "Hiển thị";
+            this.btn_Show.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_Show.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_Show.UseVisualStyleBackColor = true;
+            this.btn_Show.Click += new System.EventHandler(this.btn_Show_Click);
+            // 
+            // btn_Delete
+            // 
+            this.btn_Delete.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Delete.Image = global::quanLyNhaHang_Nhom4.Properties.Resources.Close_2_icon;
+            this.btn_Delete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Delete.Location = new System.Drawing.Point(554, 37);
+            this.btn_Delete.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn_Delete.Name = "btn_Delete";
+            this.btn_Delete.Size = new System.Drawing.Size(174, 72);
+            this.btn_Delete.TabIndex = 2;
+            this.btn_Delete.Text = "Xóa";
+            this.btn_Delete.UseVisualStyleBackColor = true;
+            this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
+            // 
+            // btn_Change
+            // 
+            this.btn_Change.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Change.Image = global::quanLyNhaHang_Nhom4.Properties.Resources.Pencil_icon;
+            this.btn_Change.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Change.Location = new System.Drawing.Point(344, 37);
+            this.btn_Change.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn_Change.Name = "btn_Change";
+            this.btn_Change.Size = new System.Drawing.Size(174, 72);
+            this.btn_Change.TabIndex = 1;
+            this.btn_Change.Text = "Sửa";
+            this.btn_Change.UseVisualStyleBackColor = true;
+            this.btn_Change.Click += new System.EventHandler(this.btn_Change_Click);
+            // 
+            // btn_Add
+            // 
+            this.btn_Add.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Add.Image = global::quanLyNhaHang_Nhom4.Properties.Resources.Actions_list_add_icon;
+            this.btn_Add.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Add.Location = new System.Drawing.Point(133, 37);
+            this.btn_Add.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn_Add.Name = "btn_Add";
+            this.btn_Add.Size = new System.Drawing.Size(174, 72);
+            this.btn_Add.TabIndex = 0;
+            this.btn_Add.Text = "Thêm";
+            this.btn_Add.UseVisualStyleBackColor = true;
+            this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
             // 
             // lblThongtin
             // 
@@ -197,6 +237,7 @@
             this.txtMaban.Location = new System.Drawing.Point(203, 314);
             this.txtMaban.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtMaban.Name = "txtMaban";
+            this.txtMaban.ReadOnly = true;
             this.txtMaban.Size = new System.Drawing.Size(193, 23);
             this.txtMaban.TabIndex = 4;
             // 
@@ -269,74 +310,41 @@
             this.lblTongDM.TabIndex = 3;
             this.lblTongDM.Text = "Tổng danh mục:";
             // 
-            // button1
+            // dgv_maBanAn
             // 
-            this.button1.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = global::quanLyNhaHang_Nhom4.Properties.Resources.bx_show_icon;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(756, 37);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(169, 72);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Hiển thị";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button1.UseVisualStyleBackColor = true;
+            this.dgv_maBanAn.HeaderText = "Mã bàn ăn";
+            this.dgv_maBanAn.MinimumWidth = 6;
+            this.dgv_maBanAn.Name = "dgv_maBanAn";
+            this.dgv_maBanAn.Width = 200;
             // 
-            // button2
+            // dgv_tenBanAn
             // 
-            this.button2.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Image = global::quanLyNhaHang_Nhom4.Properties.Resources.Close_2_icon;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(554, 37);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(174, 72);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Xóa";
-            this.button2.UseVisualStyleBackColor = true;
+            this.dgv_tenBanAn.HeaderText = "Tên bàn ăn";
+            this.dgv_tenBanAn.MinimumWidth = 6;
+            this.dgv_tenBanAn.Name = "dgv_tenBanAn";
+            this.dgv_tenBanAn.Width = 300;
             // 
-            // button3
+            // dgv_trangThai
             // 
-            this.button3.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Image = global::quanLyNhaHang_Nhom4.Properties.Resources.Pencil_icon;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(344, 37);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(174, 72);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "Sửa";
-            this.button3.UseVisualStyleBackColor = true;
+            this.dgv_trangThai.HeaderText = "Trạng thái";
+            this.dgv_trangThai.MinimumWidth = 6;
+            this.dgv_trangThai.Name = "dgv_trangThai";
+            this.dgv_trangThai.Width = 300;
             // 
-            // button4
+            // txt_FindNameTable
             // 
-            this.button4.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Image = global::quanLyNhaHang_Nhom4.Properties.Resources.Actions_list_add_icon;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(133, 37);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(174, 72);
-            this.button4.TabIndex = 0;
-            this.button4.Text = "Thêm";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // toolStripButton1
-            // 
-            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton1.Image = global::quanLyNhaHang_Nhom4.Properties.Resources.Tatice_Cristal_Intense_Loupe_256;
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton1.Text = "toolStripButton1";
+            this.txt_FindNameTable.Location = new System.Drawing.Point(213, 4);
+            this.txt_FindNameTable.Name = "txt_FindNameTable";
+            this.txt_FindNameTable.Size = new System.Drawing.Size(560, 21);
+            this.txt_FindNameTable.TabIndex = 14;
+            this.txt_FindNameTable.TextChanged += new System.EventHandler(this.txt_FindNameTable_TextChanged);
             // 
             // frmAdminTable
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1528, 957);
+            this.Controls.Add(this.txt_FindNameTable);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
@@ -365,13 +373,12 @@
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton toolStripButton1;
         private System.Windows.Forms.ToolStripLabel toolstripTim;
-        private System.Windows.Forms.ToolStripTextBox toolStripSobanan;
         private System.Windows.Forms.DataGridView dgvBanAn;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btn_Show;
+        private System.Windows.Forms.Button btn_Delete;
+        private System.Windows.Forms.Button btn_Change;
+        private System.Windows.Forms.Button btn_Add;
         private System.Windows.Forms.Label lblThongtin;
         private System.Windows.Forms.Label lblMaban;
         private System.Windows.Forms.Label lblTenban;
@@ -380,11 +387,12 @@
         private System.Windows.Forms.TextBox txtTenban;
         private System.Windows.Forms.TextBox txtTrangthai;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colMaBan;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colTenBan;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colTrangThai;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label lblTongdanhmuc;
         private System.Windows.Forms.Label lblTongDM;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgv_maBanAn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgv_tenBanAn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgv_trangThai;
+        private System.Windows.Forms.TextBox txt_FindNameTable;
     }
 }
